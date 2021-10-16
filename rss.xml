@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 12 Oct 2021 11:02:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Oct 2021 13:50:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -12,9 +12,8 @@
             <guid>70e543a12e30490abd0162f45ffc5403</guid>
             <pubDate>Tue, 12 Oct 2021 07:27:33 GMT</pubDate>
             <content:encoded><![CDATA[<p>大型网站由简单网站发展而来。在发展过程中，工程师逐步为网站添加或改进架构。发展过程中的每一步改进，都应结合网站的具体业务和当时的确切需求来进行，因此不存在一个固定的发展套路，也不存在一步到位的大型网站设计与建设。</p>
-<p>对一个网站，具有以下方面的要求：</p>
-<p>高性能
-可用性
+<p>对一个网站，具有以下方面的要求：a</p>
+<p>可用性
 伸缩性
 扩展性
 安全性
@@ -192,6 +191,19 @@ NoSQL数据库在可伸缩性和高可用性上弥补了传统关系型数据库
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[test]]></title>
+            <guid>ec34ebb53bf44a928c4a28d7aad0da41</guid>
+            <pubDate>Fri, 08 Oct 2021 09:47:46 GMT</pubDate>
+            <content:encoded><![CDATA[<p>test</p>
+<p>line1
+line2</p>
+<p>line3
+line4</p>
+<p>text with <code>code</code></p>
+<div><pre class="hljs"><code><span class="hljs-title function_">alert</span>(<span class="hljs-number">111</span>)</code></pre></div>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[1. Welcome to Joplin!]]></title>
             <guid>c7e2fc5c885a4ec6a75fa30f58225a49</guid>
             <pubDate>Thu, 30 Sep 2021 12:41:39 GMT</pubDate>
@@ -249,6 +261,45 @@ NoSQL数据库在可伸缩性和高可用性上弥补了传统关系型数据库
 <li>On <strong>mobile</strong>, open the note and press the “⋮” button and select “Tags”.</li>
 <li>On <strong>terminal</strong>, type <code>:help tag</code> for the available commands.</li>
 </ul>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2. Importing and exporting notes]]></title>
+            <guid>6b96c0999a584291bf1286f06d27642f</guid>
+            <pubDate>Thu, 30 Sep 2021 12:41:39 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="importing-and-exporting-notes">Importing and exporting notes</h1>
+<h2 id="importing-from-evernote">Importing from Evernote</h2>
+<p>Joplin can import complete Evernote notebooks, as well as notes, tags, images, attached files and note metadata (such as author, geo-location, etc.) via ENEX files.<code>dfas</code></p>
+<p>gfgferer
+wrr
+23434
+ddd
+ggg</p>
+<div><pre class="hljs"><code>ddd</code></pre></div>
+<p>To import Evernote data, first export your Evernote notebooks to ENEX files as described <a title="https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks" href="https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks">here</a>. Then, on <strong>desktop</strong>, do the following: Open File &gt; Import &gt; ENEX and select your file. The notes will be imported into a new separate notebook. If needed they can then be moved to a different notebook, or the notebook can be renamed, etc. Read <a title="https://joplinapp.org/help/#importing-from-evernote" href="https://joplinapp.org/help/#importing-from-evernote">more about Evernote import</a>.</p>
+<h1 id="importing-from-other-apps">Importing from other apps</h1>
+<p>Joplin can also import notes from <a title="https://github.com/laurent22/joplin#importing-from-other-applications" href="https://github.com/laurent22/joplin#importing-from-other-applications">many other apps</a> as well as <a title="https://github.com/laurent22/joplin#importing-from-markdown-files" href="https://github.com/laurent22/joplin#importing-from-markdown-files">from Markdown or text files</a>.</p>
+<h1 id="exporting-notes">Exporting notes</h1>
+<p>Joplin can export to the JEX format (Joplin Export file), which is an archive that can contain multiple notes, notebooks, etc. This is a format mostly designed for backup purposes. You may also export to other formats such as plain Markdown files, to JSON or to PDF. Find out <a title="https://github.com/laurent22/joplin#exporting" href="https://github.com/laurent22/joplin#exporting">more about exporting notes</a> on the official website.</p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[3. Synchronising your notes]]></title>
+            <guid>c10390cda8db4094b6bd3930e89bbe63</guid>
+            <pubDate>Thu, 30 Sep 2021 12:41:39 GMT</pubDate>
+            <content:encoded><![CDATA[<h1 id="synchronising-your-notes">Synchronising your notes</h1>
+<p>Joplin allows you to synchronise your data using various file hosting services. The supported cloud services are the following:</p>
+<h2 id="setting-up-joplin-cloud-synchronisation">Setting up Joplin Cloud synchronisation</h2>
+<p><a title="https://joplinapp.org/plans/" href="https://joplinapp.org/plans/">Joplin Cloud</a> is a web service specifically designed for Joplin. Besides synchronising your data, it also allows you to publish a note to the internet, or share a notebook with your friends, family or colleagues. Joplin Cloud, compared to other services, also features a number of performance improvements allowing for faster synchronisation.</p>
+<p>To use it, go to the config screen, then to the Synchronisation section. In the list of sync target, select “Joplin Cloud”. Enter your email and password, and you’re ready to use Joplin Cloud.</p>
+<h2 id="setting-up-dropbox-synchronisation">Setting up Dropbox synchronisation</h2>
+<p>Select “Dropbox” as the synchronisation target in the config screen. Then, to initiate the synchronisation process, click on the “Synchronise” button in the sidebar and follow the instructions.</p>
+<h2 id="setting-up-nextcloud-synchronisation">Setting up Nextcloud synchronisation</h2>
+<p>Nextcloud is a self-hosted, private cloud solution. To set it up, go to the config screen and select Nextcloud as the synchronisation target. Then input the WebDAV URL (to get it, go to your Nextcloud page, click on Settings in the bottom left corner of the page and copy the URL). Note that it has to be the <strong>full URL</strong>, so for example if you want the notes to be under <code>/Joplin</code>, the URL would be something like <code>https://example.com/remote.php/webdav/Joplin</code> (note that “/Joplin” part). And <strong>make sure to create the “/Joplin” directory in Nextcloud</strong>. Finally set the username and password. If it does not work, please <a title="https://github.com/laurent22/joplin/issues/61#issuecomment-373282608" href="https://github.com/laurent22/joplin/issues/61#issuecomment-373282608">see this explanation</a> for more details.</p>
+<h2 id="setting-up-onedrive-or-webdav-synchronisation">Setting up OneDrive or WebDAV synchronisation</h2>
+<p>OneDrive and WebDAV are also supported as synchronisation services. Please see <a title="https://github.com/laurent22/joplin#synchronisation" href="https://github.com/laurent22/joplin#synchronisation">the synchronisation documentation</a> for more information.</p>
+<h2 id="using-end-to-end-encryption">Using End-To-End Encryption</h2>
+<p>Joplin supports end-to-end encryption (E2EE) on all the applications. E2EE is a system where only the owner of the data can read it. It prevents potential eavesdroppers - including telecom providers, internet providers, and even the developers of Joplin from being able to access the data. Please see the <a title="https://joplinapp.org/e2ee/" href="https://joplinapp.org/e2ee/">End-To-End Encryption Tutorial</a> for more information about this feature and how to enable it.</p>
 ]]></content:encoded>
         </item>
     </channel>
